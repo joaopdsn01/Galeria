@@ -1,17 +1,17 @@
-# 📸 Galeria
+# Galeria
 
 Um aplicativo mobile de galeria de fotos e vídeos, desenvolvido com React Native e Expo.
 
 ## ✨ Funcionalidades
 
-- 🖼️ Visualização de fotos e vídeos do dispositivo em grade
-- ▶️ Player de vídeo com controles de play/pause e salto de 10 segundos
-- 🔄 Scroll infinito com carregamento paginado
-- 🔃 Pull-to-refresh para atualizar a galeria
-- 🔒 Tela de permissão integrada (com suporte a acesso parcial no iOS)
-- 🌑 Interface totalmente em tema escuro
+- Visualização de fotos e vídeos do dispositivo em grade
+- ▶Player de vídeo com controles de play/pause e salto de 10 segundos
+- Scroll infinito com carregamento paginado
+- Pull-to-refresh para atualizar a galeria
+- Tela de permissão integrada (com suporte a acesso parcial no iOS)
+- Interface totalmente em tema escuro
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - [React Native](https://reactnative.dev/) `0.83`
 - [Expo](https://expo.dev/) `~55`
@@ -40,7 +40,7 @@ galeria/
 └── assets/                # Ícones e splash screen
 ```
 
-## 🚀 Como rodar
+## Como rodar
 
 **Pré-requisitos:** Node.js, Expo CLI e Android SDK (ou Expo Go no celular)
 
@@ -55,7 +55,7 @@ npx expo run:android
 npx expo start
 ```
 
-## 📦 Build APK
+## Build APK
 
 ```bash
 # Build na nuvem via EAS
@@ -64,4 +64,3 @@ eas build --platform android --profile preview
 
 ---
 
-Desenvolvido com ❤️ usando React Native + Expo.
