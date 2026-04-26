@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Galeria",
+    "slug": "galeria",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.galeria.app",
+      "permissions": [
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.READ_MEDIA_VIDEO",
+        "android.permission.READ_MEDIA_AUDIO",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Permitir acesso às suas fotos e vídeos.",
+          "savePhotosPermission": "Permitir salvar fotos e vídeos.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Permitir acesso às suas fotos."
+        }
+      ]
+    ],
+    "scheme": "galeria",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
